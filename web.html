@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Alfaridho Kurnia</title>
+
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+        color: white;
+        min-height: 100vh;
+      }
+
+      /* BAGIAN ATAS */
+      header {
+        text-align: center;
+        padding: 60px 20px;
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      header img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #e94560;
+        margin-bottom: 20px;
+        box-shadow: 0 0 25px rgba(233, 69, 96, 0.4);
+      }
+
+      header h1 {
+        font-size: 42px;
+        color: #e94560;
+        margin: 10px;
+        text-shadow: 0 0 15px rgba(233, 69, 96, 0.3);
+      }
+
+      header h2 {
+        color: #e6dede;
+        font-weight: 300;
+      }
+
+      /* ISI */
+      section {
+        background: white;
+        color: #1a1a2e;
+        max-width: 900px;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+
+      section:hover {
+        transform: translateY(-3px);
+      }
+
+      section h2 {
+        color: #e94560;
+        border-bottom: 3px solid #e94560;
+        padding-bottom: 10px;
+        margin-top: 0;
+      }
+
+      section h3 {
+        color: #0f3460;
+      }
+
+      /* FORMAT TEKS */
+      mark {
+        background-color: #e94560;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 5px;
+      }
+
+      /* LIST */
+      li {
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+
+      /* IMAGE */
+      section img {
+        width: 200px;
+        border-radius: 12px;
+        margin: 5px;
+        transition: transform 0.3s ease;
+      }
+
+      section img:hover {
+        transform: scale(1.05);
+      }
+
+      /* TABLE */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      th {
+        background: linear-gradient(135deg, #e94560, #c73e54);
+        color: white;
+      }
+
+      th,
+      td {
+        border: 1px solid #eee;
+        padding: 14px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f8f9fa;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      /* LINK */
+      a {
+        color: #e94560;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      a:hover {
+        color: #c73e54;
+        text-decoration: underline;
+      }
+
+      /* FORM */
+      input,
+      textarea {
+        width: 100%;
+        padding: 14px;
+        margin: 8px 0 15px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 15px;
+        transition: border 0.3s ease;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: none;
+        border-color: #e94560;
+      }
+
+      button {
+        background: linear-gradient(135deg, #e94560, #c73e54);
+        color: white;
+        border: none;
+        padding: 14px 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: transform 0.3s ease;
+      }
+
+      button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+      }
+
+      /* FOOTER */
+      footer {
+        text-align: center;
+        padding: 30px;
+        background-color: #0f3460;
+        margin-top: 40px;
+      }
+
+      p {
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- FOTO DAN BAGIAN ATAS -->
+    <header>
+      <img src="foto2.jpeg" alt="Foto Alfaridho" />
+
+      <h1>Alfaridho Kurnia</h1>
+
+      <h2>Portfolio Mahasiswa</h2>
+
+      <h3>Kelas 3B SI — Sistem Informasi</h3>
+
+      <p>Selamat datang di website portofolio saya 👋</p>
+    </header>
+
+    <!-- 1. TENTANG SAYA -->
+    <section>
+      <h2>1. Tentang Saya</h2>
+
+      <p>
+        Halo! Nama saya <b>Alfaridho Kurnia</b>. Saya mahasiswa
+        <strong>Sistem Informasi</strong> kelas 3B SI yang tertarik dengan
+        teknologi dan pengembangan sistem.
+      </p>
+
+      <p>
+        Saya senang mempelajari hal baru, terutama tentang pemrograman dan
+        desain web. Saya ingin mengembangkan sistem yang dapat bermanfaat bagi
+        banyak orang di masa depan.
+      </p>
+    </section>
+
+    <!-- 2. HEADING -->
+    <section>
+      <h2>2. Heading</h2>
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </section>
+
+    <!-- 3. FORMAT TEKS -->
+    <section>
+      <h2>3. Format Teks</h2>
+
+      <p><b>Teks Tebal</b></p>
+
+      <p><i>Teks Miring</i></p>
+
+      <p><u>Teks Bergaris Bawah</u></p>
+
+      <p><mark>Teks Ditandai</mark></p>
+
+      <p><del>Teks Dicoret</del></p>
+    </section>
+
+    <!-- 4. LIST -->
+    <section>
+      <h2>4. List</h2>
+
+      <h3>Keahlian</h3>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+
+      <h3>Hobi</h3>
+
+      <ol>
+        <li>Bermain Game</li>
+        <li>Badminton</li>
+        <li>Belajar Teknologi</li>
+      </ol>
+    </section>
+
+    <!-- 5. IMAGE -->
+    <section>
+      <h2>5. Image</h2>
+
+      <p>Contoh gambar pada website portfolio:</p>
+
+      <img src="foto1.jpeg" alt="Gambar Portfolio" />
+      <img src="foto3.jpeg" alt="Gambar Portfolio" />
+      <img src="foto4.jpeg" alt="Gambar Portfolio" />
+    </section>
+
+    <!-- 6. TABLE -->
+    <section>
+      <h2>6. Table</h2>
+
+      <table>
+        <tr>
+          <th>Data</th>
+          <th>KETERANGAN</th>
+        </tr>
+
+        <tr>
+          <td>Nama Lengkap</td>
+          <td>Alfaridho Kurnia</td>
+        </tr>
+
+        <tr>
+          <td>Kelas</td>
+          <td>3B SI</td>
+        </tr>
+
+        <tr>
+          <td>Program Studi</td>
+          <td>Sistem Informasi</td>
+        </tr>
+
+        <tr>
+          <td>Kampus</td>
+          <td>UIN Jambi</td>
+        </tr>
+
+        <tr>
+          <td>Tahun</td>
+          <td>2026</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- 7. FORM -->
+    <section>
+      <h2>7. Kontak</h2>
+
+      <form>
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan nama" />
+
+        <label>Email:</label>
+        <input type="email" placeholder="Masukkan email" />
+
+        <label>Pesan:</label>
+        <textarea rows="5" placeholder="Tulis pesan"></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <!-- 8. LINK -->
+    <section>
+      <h2>8. Link</h2>
+
+      <p>Kunjungi media sosial saya:</p>
+
+      <a
+        href="https://www.instagram.com/b.kecil_si?stkn=MTU5eWU5eGR3cnBzYg=="
+        target="_blank"
+      >
+        📷 Instagram Saya
+      </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Portfolio Alfaridho Kurnia — 3B SI</p>
+    </footer>
+  </body>
+</html>
